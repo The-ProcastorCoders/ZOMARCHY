@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ZOMARCHY</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./zombiehand1.png">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="base.css">
+  <style>
+    #loading {
+      display: grid;
+      place-items: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      
+      background-color: black;
+      color: white;
+      font-family: monospace;
+      text-shadow: 4px 4px 10px cyan;
+      z-index: 10;
+    }
+    
+    button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #c91414;
+  color: #aa1e1e;
+  padding: 6px 7px 6px 6px;
+  border-top: 1px solid #c92f2f;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.fcc-btn {
+  text-align: center;
+  background-color: #d80707;
+  color: rgb(189, 36, 36);
+  padding: 10px 10px;
+  text-decoration: none;
+  position: relative; 
+
+transform:translate(-40%, -40%);
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+body #zom{
+  height:100vh;
+  opacity: 0.4;
+}
+h1 {text-align: center;}
+a {text-align: center;}
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered1 {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.centered3{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #ffffff;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.704);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #093753;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <div id="loading-screen"><img src="loading.gif" alt="SR" /></div>
+  </div>
+  <div id="mapCanvas" style="position: absolute; left:100px; top:100px; width:320px; height:240px;"></div>
+  <div id="ThreeJS" style="position: absolute; left:0px; top:0px"></div>
+  <div class="centered1">
+       
+    <button onclick="location.href='index.html'" class="btn">
+      <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+      </svg>
+      <span>BACK</span>
+    </button>
+  </div>
+
+  <div class="centered2">
+       
+    <button onclick="location.href='TrainingLevel.html'" class="btn">
+      <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+      </svg>
+      <span>RESET</span>
+    </button>
+  </div>
+
+  <script src="./TrainingLevel.js" type="module">
+  </script>
+</body>
+</html>

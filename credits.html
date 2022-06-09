@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ZOMARCHY</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./zombiehand1.png">
+    <script>
+      let username;
+
+      function askName() {
+       
+      }
+      
+     
+    </script>
+    <style>
+        body { background-color: rgb(0, 0, 0); }
+        p { color: #fff; }
+
+        button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 6px 7px 6px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.fcc-btn {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  position: relative; 
+
+transform:translate(-40%, -40%);
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+body #zom{
+  height:100vh;
+  opacity: 0.4;
+}
+h1 {text-align: center;}
+a {text-align: center;}
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered3 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered4 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #ffffff;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.704);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #093753;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <img id="zom" src="./zom.jpg" alt="">
+
+    <div class="centered">
+      <h1 style="color:#FFFFFF">CREDITS</h1>
+    
+    </div>
+
+    <div class="centered1">
+       
+        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+        </svg>
+        <span>
+            <br>Minimap - http://stemkoski.github.io/Three.js/Viewports-Minimap.html <br>
+            <br>Gun Model - https://www.turbosquid.com/3d-models/3d-fn-scar-l-pbr-1798835<br>
+            <br>Bulllet shooting - https://www.youtube.com/watch?v=nsg0qFu3aso<br>
+            <br>Realistic Rain Effect Three.js Tutorial - https://www.youtube.com/watch?v=1bkibGIG8i0<br>
+            <br>All gltf models from - https://sketchfab.com/feed<br>
+            <br>Soldier and gun model from - https://www.mixamo.com/#/<br>
+            <br>Immersive 3D Audio and Visualization (three.js & javascript) - https://www.youtube.com/watch?v=1S7ke6F8sV4<br>
+            <br>Building a Simple First Person Camera - https://www.youtube.com/watch?v=oqKzxPMLWxo<br>
+            <br>Adding weapon to character hand - https://discourse.threejs.org/t/adding-weapon-to-character-hand/30702<br>
+            <br>SimonDev 3D RPG game - https://www.youtube.com/watch?v=SBfZAVzbhCg&t=547s<br>
+            <br> Loadingscreen - https://hackernoon.com/u15-latest-and-best-loading-animations-to-make-user-enjoy-waiting-9c7861ed5d47<br>
+            <br> Music -https://downloads.khinsider.com/game-soundtracks/album/overlive-zombie-survival-rpg-android-game-music/music_arpedtriumphant.mp3<br>
+            <br> Logo - https://flyclipart.com/evil-halloween-hand-undead-zombie-icon-zombie-hand-png-427012<br>
+
+        </span>
+    </div>
+   
+      <div class="centered4">
+       
+        <button onclick="location.href='index.html'" class="btn">
+          <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+          </svg>
+          <span>BACK</span>
+        </button>
+      </div>
+    
+   
+    
+  </div>
+
+  
+</body>
+
+
+</html>
+
