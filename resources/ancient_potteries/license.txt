@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ancient potteries
+* source:	https://sketchfab.com/3d-models/ancient-potteries-024a0d26f2ab4be8bacf86127e23e6aa
+* author:	Skodvirr (https://sketchfab.com/skodvirr)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ancient potteries" (https://sketchfab.com/3d-models/ancient-potteries-024a0d26f2ab4be8bacf86127e23e6aa) by Skodvirr (https://sketchfab.com/skodvirr) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

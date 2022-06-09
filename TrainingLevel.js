@@ -248,7 +248,7 @@ class BasicCharacterController {
           count--;
           setTimeout(() => {
             zcheck = true;
-          }, 1500);
+          }, 2000);
         }
       }
 
@@ -893,7 +893,7 @@ class TrainingLevel {
     this._thirdPersonCamera = new ThirdPersonCamera({
       camera: this._camera,
       target: this._controls,
-      camerOff: new THREE.Vector3(-3, 13, -17),
+      camerOff: new THREE.Vector3(-3, 13, -19),
     });
   }
 

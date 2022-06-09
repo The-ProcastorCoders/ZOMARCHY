@@ -1,0 +1,11 @@
+Model Information:
+* title:	Colosseum_Rome_Italy
+* source:	https://sketchfab.com/3d-models/colosseum-rome-italy-859ce2dc0e514db989e21b1be535bf2e
+* author:	ajmalsaleem88 (https://sketchfab.com/ajmalsaleem88)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Colosseum_Rome_Italy" (https://sketchfab.com/3d-models/colosseum-rome-italy-859ce2dc0e514db989e21b1be535bf2e) by ajmalsaleem88 (https://sketchfab.com/ajmalsaleem88) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
