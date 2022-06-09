@@ -1,0 +1,11 @@
+Model Information:
+* title:	Temple of Baalshamin
+* source:	https://sketchfab.com/3d-models/temple-of-baalshamin-0c428b9c67254b50b2415a66042ec1ac
+* author:	#NEWPALMYRA (https://sketchfab.com/newpalmyra)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Temple of Baalshamin" (https://sketchfab.com/3d-models/temple-of-baalshamin-0c428b9c67254b50b2415a66042ec1ac) by #NEWPALMYRA (https://sketchfab.com/newpalmyra) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
