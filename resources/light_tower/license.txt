@@ -1,0 +1,11 @@
+Model Information:
+* title:	Light Tower
+* source:	https://sketchfab.com/3d-models/light-tower-9addea6a4129438b83a1fc3ed4a784ec
+* author:	krambulini (https://sketchfab.com/krambulini)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Light Tower" (https://sketchfab.com/3d-models/light-tower-9addea6a4129438b83a1fc3ed4a784ec) by krambulini (https://sketchfab.com/krambulini) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
